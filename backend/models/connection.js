@@ -6,7 +6,7 @@ var options = {
     useNewUrlParser: true
 }
 
-mongoose.connect('mongodb+srv://dbTristan:dbTristanRideOn@cluster0.hk6de.mongodb.net/RIDEON?retryWrites=true&w=majority',
+mongoose.connect('URI_BDD',
 options,
 function(err){
     if (err) {
